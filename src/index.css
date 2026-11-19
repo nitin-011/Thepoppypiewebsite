@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --color-sage-ivory: #E5E8CE;
+  --color-soft-white: #F8F9F4;
+  --color-forest-sage: #789575;
+  --color-forest-deep: #536B50;
+  --color-charcoal: #252B27;
+  --font-display: 'Manrope', system-ui, -apple-system, sans-serif;
+  --font-body: 'DM Sans', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-body);
+    background-color: var(--color-sage-ivory);
+    color: var(--color-charcoal);
+    scroll-behavior: smooth;
+    overflow-x: clip;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-sage-ivory);
+    color: var(--color-charcoal);
+    overflow-x: clip;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

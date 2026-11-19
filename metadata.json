@@ -1,0 +1,6 @@
+{
+  "name": "The Poppy Pie",
+  "description": "The Poppy Pie is a multi-venture organization connecting business networking, technology, marketing and founder-led media through an ecosystem of independent ventures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
